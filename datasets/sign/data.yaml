@@ -1,0 +1,11 @@
+names:
+- sick
+- cold
+- four
+- nose
+- fever1
+- fever2
+nc: 6
+test: datasets/sign/test/images
+train: datasets/sign/train/images
+val: datasets/sign/valid/images
