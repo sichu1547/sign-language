@@ -1,3 +1,6 @@
+## Info
+오픈소스를 활용한 수어번역기로 실시간 웹캠을 통해 사용자가 의도한 단어를 화면에 출력합니다.
+
 <details open>
 <summary>Install</summary>
 
