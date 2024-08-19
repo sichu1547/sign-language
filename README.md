@@ -19,8 +19,8 @@ $ pip install -r requirements.txt
 
 
 <details>
-<summary>사용법</summary>
-
+<summary>How to Use</summary>
+사용할 데이터셋을 직접 추가합니다.
 `train.py`에서 학습을 진행하고 `detect.py` 에서 객체를 탐지합니다. 다양한 파라미터들은 의도에 맞게 적절히 수정해야 합니다.
 
 ```bash
@@ -31,7 +31,7 @@ $ python detect.py --weights ./runs/train/exp/weights/best.pt --imgsz 640
 
 </details> 
 
-## <div align="center">환경</div>
+## <div align="center">Environment</div>
 
 <div align="center">
     <a href="https://www.python.org/">
