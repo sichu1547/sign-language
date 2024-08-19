@@ -1,21 +1,3 @@
-<p>
-YOLOv5 🚀는 COCO 데이터세트를 기반으로 사전 학습된 객체 감지 아키텍처 및 모델 제품군이며, 수천 시간에 걸친 연구 개발을 통해 얻은 교훈과 발전된 모범 사례를 통합하여 미래 비전 AI 방법에 대한 <a href="https://ultralytics.com">Ultralytics</a>
-의 오픈 소스 연구를 나타냅니다.
-</p>
-
-<!-- 
-<a align="center" href="https://ultralytics.com/yolov5" target="_blank">
-<img width="800" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-api.png"></a>
--->
-
-</div>
-
-## <div align="center">Documentation</div>
-
-See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on training, testing and deployment.
-
-## <div align="center">Quick Start Examples</div>
-
 <details open>
 <summary>Install</summary>
 
@@ -31,29 +13,6 @@ $ pip install -r requirements.txt
 </details>
 
 <details open>
-<summary>Inference</summary>
-
-Inference with YOLOv5 and [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36). Models automatically download
-from the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases).
-
-```python
-import torch
-
-# Model
-model = torch.hub.load('ultralytics/yolov5', 'yolov5s')  # or yolov5m, yolov5l, yolov5x, custom
-
-# Images
-img = 'https://ultralytics.com/images/zidane.jpg'  # or file, Path, PIL, OpenCV, numpy, list
-
-# Inference
-results = model(img)
-
-# Results
-results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
-```
-
-</details>
-
 
 
 <details>
@@ -69,24 +28,7 @@ $ python detect.py --weights ./runs/train/exp/weights/best.pt --imgsz 640
 
 </details> 
 
-<details open>
-<summary>Tutorials</summary>
-
-* [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp;
-* [Tips for Best Training Results](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)&nbsp;
-* [Multi-GPU Training](https://github.com/ultralytics/yolov5/issues/475)
-* [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)&nbsp;
-* [Model Pruning/Sparsity](https://github.com/ultralytics/yolov5/issues/304)
-* [Transfer Learning with Frozen Layers](https://github.com/ultralytics/yolov5/issues/1314)&nbsp;
-* [TensorRT Deployment](https://github.com/wang-xinyu/tensorrtx)
-
-</details>
-
-## <div align="center">Environments and Integrations</div>
-
-Get started in seconds with our verified environments and integrations,
-including [Weights & Biases](https://wandb.ai/site?utm_campaign=repo_yolo_readme) for automatic YOLOv5 experiment
-logging. Click each icon below for details.
+## <div align="center">환경</div>
 
 <div align="center">
     <a href="https://www.python.org/">
@@ -103,7 +45,7 @@ logging. Click each icon below for details.
     </a>
 </div>
 
-## <div align="center">Why YOLOv5</div>
+## <div align="center">YOLOv5의 기본적인 참고자료</div>
 
 <p align="center"><img width="800" src="https://user-images.githubusercontent.com/26833433/114313216-f0a5e100-9af5-11eb-8445-c682b60da2e3.png"></p>
 <details>
@@ -121,8 +63,6 @@ logging. Click each icon below for details.
   `python val.py --task study --data coco.yaml --iou 0.7 --weights yolov5s6.pt yolov5m6.pt yolov5l6.pt yolov5x6.pt`
 
 </details>
-
-### Pretrained Checkpoints
 
 [assets]: https://github.com/ultralytics/yolov5/releases
 
@@ -158,8 +98,13 @@ logging. Click each icon below for details.
 </details>
 
 ## <div align="center">레퍼런스</div>
-
-(https://velog.io/@jhlee508/Object-Detection-YOLOv4-Darknet-%ED%95%99%EC%8A%B5%ED%95%98%EC%97%AC-Custom-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EC%8B%9D-%EB%AA%A8%EB%8D%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-feat.-AlexeyABdarknet)
-(https://github.com/23bulgogi/sonmari)
-(https://github.com/EvilPort2/Sign-Language)
+* [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp;
+* [Tips for Best Training Results](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)&nbsp;
+* [Multi-GPU Training](https://github.com/ultralytics/yolov5/issues/475)
+* [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)&nbsp;
+* [Model Pruning/Sparsity](https://github.com/ultralytics/yolov5/issues/304)
+* [Transfer Learning with Frozen Layers](https://github.com/ultralytics/yolov5/issues/1314)&nbsp;
+* [TensorRT Deployment](https://github.com/wang-xinyu/tensorrtx)
+* [yolov4 학습](https://velog.io/@jhlee508/Object-Detection-YOLOv4-Darknet-%ED%95%99%EC%8A%B5%ED%95%98%EC%97%AC-Custom-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EC%8B%9D-%EB%AA%A8%EB%8D%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-feat.-AlexeyABdarknet)
+* [오픈소스 수어번역기](https://github.com/23bulgogi/sonmari)
 
