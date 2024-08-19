@@ -1,5 +1,5 @@
 ## Info
-오픈소스를 활용한 수어번역기로 실시간 웹캠을 통해 사용자가 의도한 단어를 화면에 출력합니다.
+오픈소스를 활용한 수어번역기로 실시간 웹캠을 통해 사용자의 수어를 입력받고 탐지된 단어를 화면에 출력합니다.
 
 <details open>
 <summary>Install</summary>
@@ -44,7 +44,7 @@ $ python detect.py --weights ./runs/train/exp/weights/best.pt --imgsz 640
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="15%"/>
     </a>
     <a href="https://opencv.org/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text.png" width="15%"/>
+        <img src="https://opencv.org/wp-content/uploads/2022/05/logo.png" width="15%"/>
     </a>
 </div>
 
@@ -100,7 +100,7 @@ $ python detect.py --weights ./runs/train/exp/weights/best.pt --imgsz 640
 
 </details>
 
-## <div align="center">레퍼런스</div>
+## <div align="center">reference</div>
 * [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)&nbsp;
 * [Tips for Best Training Results](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)&nbsp;
 * [Multi-GPU Training](https://github.com/ultralytics/yolov5/issues/475)
